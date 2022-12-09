@@ -1,0 +1,144 @@
+#######split line. below is hardware pre-release mode stats####
+DOBDB1 - 100000 - running time - 1.07413 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.43047 - seconds
+DOBDB1 - 100000 - running time - 1.02236 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.18281 - seconds
+DOBDB1 - 10000000 - running time - 36.66290 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 731.70541 - seconds
+DOBDB3 - 100000 - running time - 23.57447 - seconds
+DOBDB3 - 1000000 - running time - 291.19633 - seconds
+DOBDB1 - 100000 - running time - 1.05424 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.04377 - seconds
+DOBDB3 - 100000 - running time - 21.01988 - seconds
+DOBDB3 - 1000000 - running time - 291.41073 - seconds
+DOBDB1 - 10000000 - running time - 36.28057 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 724.64601 - seconds
+DOBDB3 - 10000000 - running time - 3338.03727 - seconds
+DOBDB1 - 100000 - running time - 1.01221 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.85609 - seconds
+DOBDB3 - 100000 - running time - 19.46851 - seconds
+DOBDB3 - 1000000 - running time - 283.66321 - seconds
+DOBDB1 - 10000000 - running time - 36.32924 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 722.10734 - seconds
+DOBDB3 - 10000000 - running time - 3379.35083 - seconds
+DOBDB1 - 100000 - running time - 1.02428 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.95051 - seconds
+DOBDB3 - 100000 - running time - 19.85616 - seconds
+DOBDB3 - 1000000 - running time - 286.78828 - seconds
+DOBDB1 - 10000000 - running time - 36.16487 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 721.21458 - seconds
+DOBDB3 - 10000000 - running time - 3353.13416 - seconds
+DOBDB1 - 100000 - running time - 1.07653 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.36928 - seconds
+DOBDB3 - 100000 - running time - 22.54853 - seconds
+DOBDB3 - 1000000 - running time - 343.53691 - seconds
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 60579774 - decryption 667401904 - inner_memcpy 16755082 - untrusted_to_enclave_memory 313645683 - enclave_to_trusted_memory 2733392 -process time : 38748367
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 796661589 - decryption 672730338 - inner_memcpy 32401999 - untrusted_to_enclave_memory 312211600 - enclave_to_trusted_memory 36202214 -process time : 107124988
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 63859613 - decryption 6688791724 - inner_memcpy 156811533 - untrusted_to_enclave_memory 3093772647 - enclave_to_trusted_memory 2748823 -process time : 193489184
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7430896991 - decryption 6760220249 - inner_memcpy 314650384 - untrusted_to_enclave_memory 3101766101 - enclave_to_trusted_memory 336931120 -process time : 885529922
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 60741045 - decryption 667700441 - inner_memcpy 16542995 - untrusted_to_enclave_memory 312140262 - enclave_to_trusted_memory 2719991 -process time : 38879917
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 797153358 - decryption 672715695 - inner_memcpy 32713280 - untrusted_to_enclave_memory 309512690 - enclave_to_trusted_memory 35730449 -process time : 107113086
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 63774956 - decryption 6700372132 - inner_memcpy 156794689 - untrusted_to_enclave_memory 3097645432 - enclave_to_trusted_memory 2728097 -process time : 194669784
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7473692565 - decryption 6787504882 - inner_memcpy 315232817 - untrusted_to_enclave_memory 3113158426 - enclave_to_trusted_memory 333855061 -process time : 891574400
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 59893993 - decryption 666696650 - inner_memcpy 16610347 - untrusted_to_enclave_memory 312498843 - enclave_to_trusted_memory 2689781 -process time : 38887045
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 802617739 - decryption 676773034 - inner_memcpy 32814456 - untrusted_to_enclave_memory 309395166 - enclave_to_trusted_memory 35643780 -process time : 106953322
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 63705512 - decryption 6685650163 - inner_memcpy 156921844 - untrusted_to_enclave_memory 3091806066 - enclave_to_trusted_memory 2682506 -process time : 194928617
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7443627588 - decryption 6766353832 - inner_memcpy 315819369 - untrusted_to_enclave_memory 3102497345 - enclave_to_trusted_memory 331705230 -process time : 884637778
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 60217551 - decryption 667380277 - inner_memcpy 16775349 - untrusted_to_enclave_memory 313208819 - enclave_to_trusted_memory 2690287 -process time : 38596142
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 799622681 - decryption 674017708 - inner_memcpy 32860946 - untrusted_to_enclave_memory 308836288 - enclave_to_trusted_memory 35778574 -process time : 107214232
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 60159182 - decryption 666684986 - inner_memcpy 16647357 - untrusted_to_enclave_memory 313976626 - enclave_to_trusted_memory 2671310 -process time : 38667227
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 798923295 - decryption 673221973 - inner_memcpy 32995415 - untrusted_to_enclave_memory 308392962 - enclave_to_trusted_memory 35770763 -process time : 107142996
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 62907777 - decryption 6688466219 - inner_memcpy 156827520 - untrusted_to_enclave_memory 3094052527 - enclave_to_trusted_memory 2795894 -process time : 193571575
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7411658511 - decryption 6744346142 - inner_memcpy 315398127 - untrusted_to_enclave_memory 3098558541 - enclave_to_trusted_memory 331429497 -process time : 886191694
+DOFilter rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 87520803 - decryption 66924957828 - inner_memcpy 1569481967 - untrusted_to_enclave_memory 30934824077 - enclave_to_trusted_memory 3666930 -process time : 1756968052
+DOProject rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 73983834836 - decryption 67717974058 - inner_memcpy 3155561446 - untrusted_to_enclave_memory 31087473310 - enclave_to_trusted_memory 3321039456 -process time : 8886750195
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 60404944 - decryption 665380747 - inner_memcpy 16783422 - untrusted_to_enclave_memory 311658451 - enclave_to_trusted_memory 2671943 -process time : 38554948
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 797014320 - decryption 672725347 - inner_memcpy 32091544 - untrusted_to_enclave_memory 310885585 - enclave_to_trusted_memory 36211486 -process time : 106239717
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 63346709 - decryption 6697553180 - inner_memcpy 157178526 - untrusted_to_enclave_memory 3099709911 - enclave_to_trusted_memory 2682568 -process time : 194350472
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7453322631 - decryption 6762397064 - inner_memcpy 317357534 - untrusted_to_enclave_memory 3108676286 - enclave_to_trusted_memory 335878965 -process time : 894097790
+DOFilter rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 87522036 - decryption 66960504247 - inner_memcpy 1567012413 - untrusted_to_enclave_memory 30961771189 - enclave_to_trusted_memory 3709665 -process time : 1757328308
+DOProject rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 74136303085 - decryption 67745157855 - inner_memcpy 3156915833 - untrusted_to_enclave_memory 31089320922 - enclave_to_trusted_memory 3330143113 -process time : 8854462360
+DOFilter rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 61470145 - decryption 676632563 - inner_memcpy 17605239 - untrusted_to_enclave_memory 316373284 - enclave_to_trusted_memory 2809060 -process time : 39554444
+DOProject rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 800002933 - decryption 675287023 - inner_memcpy 32782630 - untrusted_to_enclave_memory 312162688 - enclave_to_trusted_memory 35968709 -process time : 107789679
+DOFilter rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 63480727 - decryption 6659660712 - inner_memcpy 153992200 - untrusted_to_enclave_memory 3078765901 - enclave_to_trusted_memory 2731475 -process time : 193044740
+DOProject rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 7418329397 - decryption 6728058605 - inner_memcpy 313461567 - untrusted_to_enclave_memory 3086565969 - enclave_to_trusted_memory 333531136 -process time : 880576602
+DOFilter rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 86465687 - decryption 66584436987 - inner_memcpy 1540086555 - untrusted_to_enclave_memory 30754014277 - enclave_to_trusted_memory 3615599 -process time : 1735090555
+DOProject rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 73373552332 - decryption 67281768927 - inner_memcpy 3122512809 - untrusted_to_enclave_memory 30881545436 - enclave_to_trusted_memory 3268720897 -process time : 8706525051
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 300000  - encryption 2552689787 - decryption 3981070267 - inner_memcpy 155718335 - untrusted_to_enclave_memory 1846402031 - enclave_to_trusted_memory 109880582 -process time : 3095525393
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 3000000  - encryption 5054169843 - decryption 59693046060 - inner_memcpy 1502661732 - untrusted_to_enclave_memory 27620538793 - enclave_to_trusted_memory 224895084 -process time : 28089906170
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 30000000  - encryption 12643169752 - decryption 1194541179865 - inner_memcpy 27911457332 - untrusted_to_enclave_memory 552536116694 - enclave_to_trusted_memory 560780698 -process time : 378598826861
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 300000  - encryption 2528164215 - decryption 3980147063 - inner_memcpy 155495506 - untrusted_to_enclave_memory 1843391339 - enclave_to_trusted_memory 109589635 -process time : 3093734251
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 3000000  - encryption 5068308083 - decryption 59682855762 - inner_memcpy 1504656086 - untrusted_to_enclave_memory 27604045193 - enclave_to_trusted_memory 223578858 -process time : 28205342246
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 30000000  - encryption 12668713160 - decryption 1195045017309 - inner_memcpy 27904016121 - untrusted_to_enclave_memory 552820361925 - enclave_to_trusted_memory 564592979 -process time : 375131129753
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 300000  - encryption 2579191016 - decryption 3976844736 - inner_memcpy 156573089 - untrusted_to_enclave_memory 1848811772 - enclave_to_trusted_memory 111642111 -process time : 3124575474
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 3000000  - encryption 5074994697 - decryption 59751821874 - inner_memcpy 1497555662 - untrusted_to_enclave_memory 27637394436 - enclave_to_trusted_memory 223359394 -process time : 28182305780
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 30000000  - encryption 12648558793 - decryption 1194903479876 - inner_memcpy 28017831959 - untrusted_to_enclave_memory 552707630911 - enclave_to_trusted_memory 561616816 -process time : 376775445007
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 300000  - encryption 2525559943 - decryption 4004137163 - inner_memcpy 157405330 - untrusted_to_enclave_memory 1854791233 - enclave_to_trusted_memory 110015435 -process time : 3108100132
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 3000000  - encryption 5070687852 - decryption 59670612339 - inner_memcpy 1497679078 - untrusted_to_enclave_memory 27611678446 - enclave_to_trusted_memory 226382405 -process time : 28068472441
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 30000000  - encryption 12639374991 - decryption 1194136886774 - inner_memcpy 28096785576 - untrusted_to_enclave_memory 552207258040 - enclave_to_trusted_memory 567093399 -process time : 378930600439
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 300000  - encryption 2534424681 - decryption 3993220888 - inner_memcpy 155942768 - untrusted_to_enclave_memory 1851658515 - enclave_to_trusted_memory 109865323 -process time : 3099446700
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 3000000  - encryption 5063898128 - decryption 59764903106 - inner_memcpy 1498475054 - untrusted_to_enclave_memory 27641780355 - enclave_to_trusted_memory 224855266 -process time : 28210872301
+DOHashBasedGroupby rows(Following are rdtsc() values, not real time scale) - 30000000  - encryption 12678783824 - decryption 1194529565147 - inner_memcpy 28074790718 - untrusted_to_enclave_memory 552360845188 - enclave_to_trusted_memory 560648625 -process time : 375750961159
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 10000  - encryption 1593133294 - decryption 744730395 - inner_memcpy 198590942 - untrusted_to_enclave_memory 170529499 - enclave_to_trusted_memory 195667929 -process time : 284991115
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 5104074872 - decryption 4300468628 - inner_memcpy 830396427 - untrusted_to_enclave_memory 966256321 - enclave_to_trusted_memory 609712664 -process time : 3466200785
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 78059860483 - decryption 66611588482 - inner_memcpy 13448939741 - untrusted_to_enclave_memory 15475067281 - enclave_to_trusted_memory 9586664965 -process time : 42967164168
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 963354678227 - decryption 832374983857 - inner_memcpy 167255205821 - untrusted_to_enclave_memory 192911150627 - enclave_to_trusted_memory 117758265694 -process time : 517194365806
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 10000  - encryption 1929256610 - decryption 739075343 - inner_memcpy 223351994 - untrusted_to_enclave_memory 171141123 - enclave_to_trusted_memory 229319706 -process time : 284617611
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 100000  - encryption 5000370276 - decryption 4170447973 - inner_memcpy 824730292 - untrusted_to_enclave_memory 967539983 - enclave_to_trusted_memory 609685577 -process time : 3496223009
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 1000000  - encryption 77671412159 - decryption 66390240281 - inner_memcpy 13410716299 - untrusted_to_enclave_memory 15057830059 - enclave_to_trusted_memory 10040719041 -process time : 42810921367
+DOSortJoin rows(Following are rdtsc() values, not real time scale) - 10000000  - encryption 966243183452 - decryption 829551338867 - inner_memcpy 165258471423 - untrusted_to_enclave_memory 193563008471 - enclave_to_trusted_memory 117786374356 -process time : 518108140022
+DOBDB3 - 100000 - running time - 21.14977 - seconds
+DOBDB3 - 1000000 - running time - 292.10834 - seconds
+DOBDB3 - 100000 - running time - 23.11830 - seconds
+DOBDB3 - 1000000 - running time - 291.20297 - seconds
+DOBDB3 - 100000 - running time - 22.37719 - seconds
+DOBDB3 - 1000000 - running time - 298.53455 - seconds
+
+DOBDB2 - 10000 - running time - 2.42515 - seconds
+DOBDB2 - 100000 - running time - 4.90401 - seconds
+DOBDB2 - 1000000 - running time - 45.83331 - seconds
+DOBDB2 - 10000000 - running time - 696.20924 - seconds
+DOBDB2 - 10000 - running time - 2.55165 - seconds
+DOBDB2 - 100000 - running time - 5.00469 - seconds
+DOBDB2 - 1000000 - running time - 47.12060 - seconds
+DOBDB2 - 10000 - running time - 2.53766 - seconds
+DOBDB2 - 100000 - running time - 5.07682 - seconds
+DOBDB2 - 1000000 - running time - 47.00772 - seconds
+####
+DOBDB2 - 10000 - running time - 2.72418 - seconds
+DOBDB2 - 100000 - running time - 5.19623 - seconds
+DOBDB2 - 1000000 - running time - 46.61143 - seconds
+DOBDB2 - 10000000 - running time - 706.08012 - seconds
+DOBDB2 - 10000 - running time - 2.46638 - seconds
+DOBDB2 - 100000 - running time - 4.97849 - seconds
+DOBDB2 - 1000000 - running time - 46.67393 - seconds
+DOBDB1 - 10000 - running time - 0.58369 - seconds(differential oblivious)
+DOBDB2 - 10000 - running time - 2.80238 - seconds
+DOBDB1 - 100000 - running time - 0.95414 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.85563 - seconds
+DOBDB1 - 1000000 - running time - 4.07760 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 46.46729 - seconds
+DOBDB1 - 10000000 - running time - 35.47552 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 720.41985 - seconds
+DOBDB1 - 10000 - running time - 0.56496 - seconds(differential oblivious)
+DOBDB2 - 10000 - running time - 2.41506 - seconds
+DOBDB1 - 100000 - running time - 0.94895 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.81899 - seconds
+DOBDB1 - 1000000 - running time - 4.07717 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 46.44262 - seconds
+DOBDB1 - 10000000 - running time - 35.52351 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 705.07644 - seconds
+DOBDB1 - 10000 - running time - 0.57304 - seconds(differential oblivious)
+DOBDB2 - 10000 - running time - 2.42446 - seconds
+DOBDB1 - 100000 - running time - 0.95386 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.85128 - seconds
+DOBDB1 - 1000000 - running time - 4.07377 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 46.43463 - seconds
+DOBDB1 - 10000000 - running time - 35.47300 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 705.53040 - seconds
+DOBDB1 - 10000 - running time - 0.66968 - seconds(differential oblivious)
+DOBDB2 - 10000 - running time - 2.52916 - seconds
+DOBDB1 - 100000 - running time - 0.95402 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 4.85712 - seconds
+DOBDB1 - 1000000 - running time - 4.07929 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 46.44056 - seconds

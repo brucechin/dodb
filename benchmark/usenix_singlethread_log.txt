@@ -1,0 +1,30 @@
+DOBDB1 - 100000 - running time - 1.23978 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.88659 - seconds
+DOBDB3 - 100000 - running time - 48.32998 - seconds
+DOBDB1 - 1000000 - running time - 5.26285 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 69.74813 - seconds
+DOBDB3 - 1000000 - running time - 1288.83409 - seconds
+DOBDB1 - 100000 - running time - 1.29978 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.83443 - seconds
+DOBDB1 - 1000000 - running time - 5.31287 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 70.40893 - seconds
+DOBDB1 - 100000 - running time - 1.25529 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.88800 - seconds
+DOBDB1 - 1000000 - running time - 5.31248 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 70.27608 - seconds
+DOBDB1 - 100000 - running time - 1.25478 - seconds(differential oblivious)
+DOBDB2 - 100000 - running time - 5.77312 - seconds
+DOBDB1 - 1000000 - running time - 5.32015 - seconds(differential oblivious)
+DOBDB2 - 1000000 - running time - 70.51398 - seconds
+DOBDB1 - 10000000 - running time - 46.19639 - seconds(differential oblivious)
+DOBDB2 - 10000000 - running time - 1152.28989 - seconds
+DOBDB3 - 100000 - running time - 49.17588 - seconds
+DOBDB3 - 1000000 - running time - 1295.71098 - seconds
+DOBDB3 - 100000 - running time - 49.46543 - seconds
+DOBDB3 - 1000000 - running time - 1305.78676 - seconds
+DOBDB3 - 100000 - running time - 49.32310 - seconds
+DOBDB3 - 1000000 - running time - 1285.51830 - seconds
+DOBDB3 - 300000 - running time - 263.91978 - seconds
+DOBDB3 - 300000 - running time - 263.81029 - seconds
+DOBDB3 - 300000 - running time - 264.80940 - seconds
+

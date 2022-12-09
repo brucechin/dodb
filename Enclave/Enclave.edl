@@ -1,0 +1,122 @@
+/*
+ * Copyright (C) 2011-2020 Intel Corporation. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ *   * Redistributions of source code must retain the above copyright
+ *     notice, this list of conditions and the following disclaimer.
+ *   * Redistributions in binary form must reproduce the above copyright
+ *     notice, this list of conditions and the following disclaimer in
+ *     the documentation and/or other materials provided with the
+ *     distribution.
+ *   * Neither the name of Intel Corporation nor the names of its
+ *     contributors may be used to endorse or promote products derived
+ *     from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ * OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ */
+
+/* Enclave.edl - Top EDL file. */
+
+enclave {
+    
+
+    /* Import ECALL/OCALL from sub-directory EDLs.
+     *  [from]: specifies the location of EDL file. 
+     *  [import]: specifies the functions to import, 
+     *  [*]: implies to import all functions.
+     */
+      
+    from "sgx_tstdc.edl" import *;
+    include "sgx_key_exchange.h"
+    include "sgx_trts.h"
+    include "definitions.h"
+
+    /* 
+     * ocall_print_string - invokes OCALL to display string buffer inside the enclave.
+     *  [in]: copy the string buffer to App outside.
+     *  [string]: specifies 'str' is a NULL terminated buffer.
+     */
+    untrusted {
+        void ocall_print_string([in, string] const char *str);
+        void ocall_read_block(int structureId, int index, [out, size=encBlockSize]void *encData, int encBlockSize);
+        void ocall_write_block(int structureId, int index, [in, size=encBlockSize]void *encData, int encBlockSize);
+        void ocall_newStructure(int newId, size_t size); //enclave asks app to allocate new structure
+        void ocall_deleteStructure(int structureId);
+        void ocall_updateStructureSize(int structureId, int resize);
+                                      
+                                      
+                                      
+        void ocall_read_block_batch(int structureId, int index, int batchSize, [out, size=encDataLen]void *encData,  int encDataLen);
+        void ocall_write_block_batch(int structureId, int index, int batchSize, [in, size=encDataLen]void *encData,  int encDataLen);
+        // void ocall_decrypt_batch(int batchSize);
+        // void ocall_encrypt_batch(int batchSize);
+
+    };
+
+
+
+    trusted{
+        /*
+        * This is a test function which enters enclave and call ocall_print_string()
+        */
+        public int decryptBlock([user_check]void *ct, [user_check]void *pt);
+        public int encryptBlock([user_check]void *ct, [user_check]void *pt);
+        // public int decryptBlockByIndex(int ciphertextIndex, int plaintextIndex);
+        // public int encryptBlockByIndex(int ciphertextIndex, int plaintextIndex);
+
+        public int decryptBlockBatch(int ciphertextIndexStart, int plaintextIndexStart, int batchSize);
+        public int encryptBlockBatch(int ciphertextIndexStart, int plaintextIndexStart, int batchSize);
+
+        public void printPaddingCounter();
+
+        public void ecallPrintHelloWorld(void);
+        public int opOneLinearScanBlock(int structureId, int index, [user_check]Linear_Scan_Block* block, int write);
+		public int opBatchLinearScanBlock(int structureId, int index, int batchSize, [user_check]uint8_t *block, int write);
+        public int createTable([user_check]Schema *schema, [user_check]char* tableName, int nameLen, int numberOfRows, [user_check]int* structureId);
+		public int getTableId([user_check]char *tableName);
+		public int deleteTable([user_check]char *tableName);
+		public int incrementNumRows(int structureId);
+        public int setNumRows(int structureId, int numRow);
+		public int printTable([user_check]char* tableName);
+        public sgx_status_t keyInit();
+        public int Q1([user_check]char *tableName, Condition c);
+        public int DOQ1([user_check]char *tableName, Condition c);
+        public int DOSortBasedQ2([user_check]char *tableName, Condition c);
+        public int DOHashBasedQ2([user_check]char *tableName, Condition c);
+	    public int DOFilterMicrobenchmark([user_check]char *tableName, Condition c);
+	    public int DOProjectMicrobenchmark([user_check]char *tableName);
+        public int DOSortJoinMicrobenchmark();
+        public int Q3();
+
+        //use 1 for true and 0 for false.
+        public void orderby([user_check]char* tableName, [user_check]int* sortColIndex, int numSortCols, int ascendant, int limitSize, int algorithm);
+        public int filter([user_check]uint8_t* row, Schema s, Condition c);
+        public void projection([user_check]uint8_t* input, [user_check]uint8_t* output, Schema input_schema, Schema output_schema, [user_check]int* columnsToProjected);
+        public void FOProjectWithFilter(int inputStructureId, [user_check]char *outputTableName, Condition c, Schema input_schema, Schema output_schema, [user_check]int *columnsToProjected);
+        public void DOProject(int inputStructureId, [user_check]char *outputTableName, Schema input_schema, Schema output_schema, [user_check]int *columnsToProjected);
+	    public void DOFilter(int inputStructureId,[user_check] char *outputTableName, Condition c);
+        
+        public int DPPrefixSumMicrobenchmark(int times);
+        public void DOProjectWithFilter(int inputStructureId, [user_check]char *outputTableName, Condition c, Schema input_schema, Schema output_schema, [user_check]int *columnsToProjected);
+        public void FOHashJoin([user_check]char *leftTableName, [user_check]char *rightTableName, [user_check]char *outputTableName, int joinColLeft, int joinColRight);
+        public double getLaplaceNoise(double b);
+        public int32_t getLowerBound(Interval in);
+        public int32_t getUpperBound(Interval in);
+        public int64_t getInterval(int32_t left, int32_t right);
+    };
+
+};

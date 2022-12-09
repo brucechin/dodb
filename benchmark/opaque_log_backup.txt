@@ -1,0 +1,104 @@
+[info] {"size": "10000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 78.434676}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 69.842296}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 303.749368}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 803.848805}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 34.749636}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 59.930738}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 192.373994}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 767.319976}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 22.848108}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 39.918612}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 160.808265}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 759.449349}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 672.23885}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 602.652781}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 1733.187342}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 11191.180663}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 310.294147}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 407.437384}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 1499.722947}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 10721.900981}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 270.734814}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 386.018694}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 1472.90069}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 10801.19067}
+[info] {"size": "10000", "system": "spark sql", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 1935.687931}
+[info] {"size": "100000", "system": "spark sql", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 1718.249926}
+[info] {"size": "1000000", "system": "spark sql", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 10049.076086}
+[info] {"size": "10000000", "system": "spark sql", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 48376.39039}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 369.56426}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3112.877931}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 31711.83024}
+[info] {"size": "10000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 305017.83448}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 3019.973301}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 26936.394858}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 282164.936694}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3234.246719}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 29051.546072}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 314262.401741}
+[info] {"size": "10000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 340.35822}
+[info] {"size": "100000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3674.554487}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 47272.591748}
+[info] {"size": "10000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 442602.311631}
+[info] {"size": "10000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2747.223231}
+[info] {"size": "100000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 27435.581564}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 424435.143047}
+[info] {"size": "10000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3350.79021}
+[info] {"size": "100000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 32657.094488}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 642303.283542}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 356.929072}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3040.806246}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 29897.59719}
+[info] {"size": "10000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 297657.135398}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 301.192924}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 2934.932119}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 29284.609011}
+[info] {"size": "10000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 295369.568944}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 328.484483}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 2996.877799}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 29472.677054}
+[info] {"size": "10000000", "system": "encrypted", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 296353.705123}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2770.148232}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 26828.730633}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 279684.551029}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 3138.816499}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 27276.788283}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 279399.674494}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2649.68088}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 27451.065663}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 281192.995017}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3145.351747}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 30110.412538}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 306345.292514}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3091.34868}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 29070.279406}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 300694.45315}
+[info] {"size": "10000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 2996.781822}
+[info] {"size": "100000", "system": "encrypted", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 29423.78827}
+[info] {"size": "1000000", "system": "encrypted", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 301783.210662}
+[info] {"size": "10000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 354.407156}
+[info] {"size": "100000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3268.822437}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 44267.294681}
+[info] {"size": "10000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 445380.207445}
+[info] {"size": "10000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 345.619105}
+[info] {"size": "100000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3292.125589}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 43493.579836}
+[info] {"size": "10000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 440909.529125}
+[info] {"size": "10000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 333.870206}
+[info] {"size": "100000", "system": "opaque", "query": "big data 1", "distributed": false, "sgx": "sim", "time": 3253.95228}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 44345.906934}
+[info] {"size": "10000000", "system": "opaque", "query": "big data 1", "distributed": true, "sgx": "sim", "time": 443172.245616}
+[info] {"size": "10000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2820.227987}
+[info] {"size": "100000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 27696.13623}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 438785.769776}
+[info] {"size": "10000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2757.493928}
+[info] {"size": "100000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 27377.976916}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 431117.291557}
+[info] {"size": "10000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 2786.830973}
+[info] {"size": "100000", "system": "opaque", "query": "big data 2", "distributed": false, "sgx": "sim", "time": 28403.792097}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 2", "distributed": true, "sgx": "sim", "time": 427185.931775}
+[info] {"size": "10000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3252.208699}
+[info] {"size": "100000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 33483.351884}
+[info] {"size": "1000000", "system": "opaque", "query": "big data 3", "distributed": true, "sgx": "sim", "time": 605849.222511}
+[info] {"size": "10000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 3291.755042}
+[info] {"size": "100000", "system": "opaque", "query": "big data 3", "distributed": false, "sgx": "sim", "time": 33768.15121}

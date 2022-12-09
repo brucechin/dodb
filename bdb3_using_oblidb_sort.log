@@ -1,0 +1,29 @@
+
+#hardware mode
+
+DOBDB3 - 100000 - running time - 23.68348 - seconds
+DOBDB3 - 1000000 - running time - 339.45420 - seconds
+DOBDB3 - 100000 - running time - 24.41744 - seconds
+DOBDB3 - 1000000 - running time - 340.48958 - seconds
+DOBDB3 - 100000 - running time - 24.14894 - seconds
+DOBDB3 - 1000000 - running time - 344.93756 - seconds
+DOBDB3 - 100000 - running time - 23.94675 - seconds
+DOBDB3 - 1000000 - running time - 343.49786 - seconds
+DOBDB3 - 100000 - running time - 23.98340 - seconds
+DOBDB3 - 1000000 - running time - 341.02894 - seconds
+DOBDB3 - 10000000 - running time - 6255.08298 - seconds
+
+
+
+RDTSC CPU frequency is 3GHZ
+#simulation mode to profile sort time. because under hardware mode we can not obtain the RDTSC clock. just for profiling the percentage of oblivious sort time in overall execution.
+read rankings table 100000 rows, and uservisits 300000 rows 1
+sort time 16885754400
+DOBDB3 - 100000 - running time - 9.81965 - seconds
+
+
+sort time 316048547371
+DOBDB3 - 1000000 - running time - 141.60621 - seconds
+
+sort time 4031135185813
+

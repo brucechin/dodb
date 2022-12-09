@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 2.8)
+project(dp_db)
+option(PARALLEL "parallel encryption and decryption" ON)
+list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
+
+find_package(SGX REQUIRED)
+include_directories(${SGX_INCLUDE_DIR} Enclave Common)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -o3")
+if(PARALLEL)
+    add_definitions(-DMAX_NUM_THREADS=4)
+else()
+    add_definitions(-DMAX_NUM_THREADS=1)
+endif()
+set(EDL_SEARCH_PATHS Enclave Enclave/TrustedLibrary)
+
+set(HLL_SRCS Common/hll.cpp)
+set(C_SRCS Common/definitions.cpp)
+set(E_SRCS Enclave/Enclave.cpp)
+set(AES_SRCS Common/AES.cpp)
+if(SGX_HW AND SGX_MODE STREQUAL "Release")
+    set(LDS Enclave/Enclave.lds)
+else()
+    set(LDS Enclave/Enclave_debug.lds)
+endif()
+
+find_package(Boost 1.71 REQUIRED system)
+
+add_trusted_library(trusted_lib SRCS  ${C_SRCS} ${HLL_SRCS} ${AES_SRCS} EDL Enclave/Enclave.edl EDL_SEARCH_PATHS ${EDL_SEARCH_PATHS})
+add_enclave_library(enclave SRCS ${E_SRCS} ${C_SRCS} ${HLL_SRCS} ${AES_SRCS} TRUSTED_LIBS trusted_lib EDL Enclave/Enclave.edl EDL_SEARCH_PATHS ${EDL_SEARCH_PATHS} LDSCRIPT ${LDS})
+
+enclave_sign(enclave KEY Enclave/Enclave_private_test.pem CONFIG Enclave/Enclave.config.xml)
+
+set(SRCS App/App.cpp)
+add_untrusted_executable(App SRCS ${SRCS} ${C_SRCS} ${HLL_SRCS} ${AES_SRCS} EDL Enclave/Enclave.edl EDL_SEARCH_PATHS ${EDL_SEARCH_PATHS})
+target_link_libraries(App ${Boost_LIBRARIES})
+add_dependencies(App enclave-sign)
